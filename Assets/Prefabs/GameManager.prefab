@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4485300987848437668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4485300987848437669}
+  - component: {fileID: 4485300987848437667}
+  - component: {fileID: 4485300987848437666}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4485300987848437669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4485300987848437668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4485300987848437667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4485300987848437668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910087c629f5fb24f8789a81265ff452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 5813277261435039100, guid: f1ab71741089e114a9016a68ac52e35f, type: 3}
+--- !u!114 &4485300987848437666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4485300987848437668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0656fa08f2227124585c201d614aba4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: {fileID: 1531171972957060417, guid: dc330de348795f5408d473f083436663, type: 3}
+  enemy:
+  - {fileID: 6452636145258515221, guid: 1b3b5f5a14322e84ba7843827c30fbb7, type: 3}
+  - {fileID: 1849922283675408203, guid: 820f14653025f2e4e94cc67edc6a59ae, type: 3}
+  police: {fileID: 4484854859906240421, guid: b6fa3173ac5a8fa47992aa7f9e46ebff, type: 3}
+  boss: {fileID: 3772260912945229253, guid: abc50231af1e72e4e9d450a6d9792b6e, type: 3}

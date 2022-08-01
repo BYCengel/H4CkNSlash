@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1531171972957060417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1531171972957060419}
+  - component: {fileID: 1531171972957060416}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1531171972957060419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531171972957060417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1531171972957060416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531171972957060417}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b945678f4af6e47b7068ff82394948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+  firstRoom: 1
+  spU: {fileID: 6977700133897162542, guid: bb52602d9704e844d8087daec1908534, type: 3}
+  spD: {fileID: 8282950200685029683, guid: c69bbd97391760940ba8c6a7b1d24b65, type: 3}
+  spR: {fileID: 9090364561198327701, guid: 39a300980066f5f4b91f468e7a6da5c9, type: 3}
+  spL: {fileID: 6440143045063898938, guid: 80abd8bbc2078d844b78787cfdc62009, type: 3}
+  spUD: {fileID: 1038177640667774514, guid: 1659506e4f2d1924cbea2f66de241e48, type: 3}
+  spRL: {fileID: 3538466902410948526, guid: b16a041ec7028f44896373da452dac97, type: 3}
+  spUR: {fileID: 2831324351358379859, guid: 0813337fbac81474285ba32c3a2123c6, type: 3}
+  spUL: {fileID: 4828074146498567530, guid: 659584205512f8f469a6e7b230ab551a, type: 3}
+  spDR: {fileID: 1102253150030094649, guid: 113dcf045f4856e4b94ce4474fc62892, type: 3}
+  spDL: {fileID: 641483377271340034, guid: b2ae7105b6afce141a7d5502c9974ab6, type: 3}
+  spULD: {fileID: 7514212441750091203, guid: 1ed433772f7a1314ab42088b41326af0, type: 3}
+  spRUL: {fileID: 1247578888640184276, guid: 2b2f0db243bb1ff4bafa04c588b3845c, type: 3}
+  spDRU: {fileID: 2423445285828439966, guid: a4d8f9fe2daf584438c31b5b6cfa8ea5, type: 3}
+  spLDR: {fileID: 1598842053918342398, guid: 19869d798a31ca44faa6bf009cdafc09, type: 3}
+  spUDRL: {fileID: 3137761260079511216, guid: fd3cb73936121d24dbf0955c7e27f818, type: 3}
